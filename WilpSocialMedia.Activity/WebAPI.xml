@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WilpSocialMedia.Activity</name>
+    </assembly>
+    <members>
+        <member name="M:WilpSocialMedia.Activity.Controllers.FriendController.Get">
+            <summary>
+            Get All Friend Request
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WilpSocialMedia.Activity.Controllers.FriendController.GetRelationship(System.Guid)">
+            <summary>
+            Get Friend 
+            </summary>
+            <param name="idUser">ID USER</param>
+            <returns></returns>
+        </member>
+        <member name="M:WilpSocialMedia.Activity.Controllers.FriendController.GetRequest(System.Guid)">
+            <summary>
+            Get Request Friend 
+            </summary>
+            <param name="idUser"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WilpSocialMedia.Activity.Controllers.FriendController.Post(WilpSocialMedia.Activity.Application.DTO.FriendRelationshipRequest)">
+            <summary>
+            Send Request Friend
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WilpSocialMedia.Activity.Controllers.FriendController.Approve(System.Guid)">
+            <summary>
+            Approve Friendship
+            </summary>
+            <param name="idRequest"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

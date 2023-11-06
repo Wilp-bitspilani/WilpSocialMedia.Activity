@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WilpSocialMedia.Activity", "WilpSocialMedia.Activity\WilpSocialMedia.Activity.csproj", "{6CA5AF9D-A8D4-4F46-AC27-0781E38A3C44}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AC44F282-0D3A-4A27-89F0-78346E6C6443}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CA5AF9D-A8D4-4F46-AC27-0781E38A3C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA5AF9D-A8D4-4F46-AC27-0781E38A3C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA5AF9D-A8D4-4F46-AC27-0781E38A3C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA5AF9D-A8D4-4F46-AC27-0781E38A3C44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC44F282-0D3A-4A27-89F0-78346E6C6443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC44F282-0D3A-4A27-89F0-78346E6C6443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC44F282-0D3A-4A27-89F0-78346E6C6443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC44F282-0D3A-4A27-89F0-78346E6C6443}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCD26C54-C96C-4B36-BE5C-B8A822B34299}
+	EndGlobalSection
+EndGlobal
